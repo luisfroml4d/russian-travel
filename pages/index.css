@@ -1,1 +1,57 @@
 @import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+
+.page {
+  background-color: #2A2C2F;
+  color: #FFFFFF;
+  min-width: 1280px;
+  font-family: 'Inter', 'Arial', 'Helvetica';
+}
+
+.header {
+  margin: 0 auto;
+  padding-top: 28px;
+  width: 1184px;
+  min-height: 52px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__links {
+  width: 77px;
+  min-height: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header__lang-link {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+.lead {
+  padding-top: 56px;
+}
+
+.lead__title {
+  margin: 0 auto;
+  width: 720px;
+  text-align: center;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+}
+
+.lead__subtitle {
+  padding-top: 32px;
+  margin: 0 auto;
+  width: 640px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+}

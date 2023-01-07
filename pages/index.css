@@ -3,9 +3,11 @@
 
 .page {
   background-color: #2A2C2F;
+  margin: 0 auto;
   color: #FFFFFF;
   min-width: 1280px;
-  font-family: 'Inter', 'Arial', 'Helvetica';
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  overflow-x: hidden;
 }
 
 .header {
@@ -35,11 +37,13 @@
 
 .lead {
   padding-top: 56px;
+  margin: 0 auto;
+  max-width: 984px;
 }
 
 .lead__title {
   margin: 0 auto;
-  width: 720px;
+  max-width: 720px;
   text-align: center;
   font-size: 96px;
   font-weight: 900;
@@ -49,9 +53,28 @@
 .lead__subtitle {
   padding-top: 32px;
   margin: 0 auto;
-  width: 640px;
+  max-width: 640px;
   text-align: center;
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
+}
+
+.lead__image {
+  max-width: 984px;
+  min-height: 615px;
+  margin: 0 auto;
+  padding-top: 64px;
+}
+
+.lead__caption {
+  margin: 0;
+  padding-top: 8px;
+  min-width: 158px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }

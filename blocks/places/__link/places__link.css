@@ -1,0 +1,11 @@
+.places__link {
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+}
+
+@media screen and (max-width: 320px) {
+  .places__link-name {
+    padding-top: 12px;
+  }
+}

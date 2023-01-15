@@ -1,0 +1,12 @@
+.places__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+@media screen and (max-width: 320px) {
+  .places__links {
+    padding: 32px 16px 0;
+  }
+}

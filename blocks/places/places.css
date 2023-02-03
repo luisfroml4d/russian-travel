@@ -1,14 +1,6 @@
-@import url(./__item/places__item.css);
-@import url(./__title/places__title.css);
-@import url(./__links/places__links.css);
-@import url(./__link-name/places__link-name.css);
-@import url(./__link/places__link.css);
-@import url(./__image/places__image.css);
-@import url(./__paragraphs/places__paragraphs.css);
-@import url(./__paragraph/places__paragraph.css);
 .places {
   margin: 0 auto;
-  padding: 92px 148px 0;
+  padding: 92px 148px 92px;
   max-width: 984px;
 }
 

@@ -1,4 +1,5 @@
 .cover {
+  margin: 0 48px;
   position: relative;
   display: flex;
   align-items: center;
@@ -28,6 +29,7 @@
 @media screen and (max-width: 1152px) {
   .cover {
     min-height: 690px;
+    margin: 0;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -37,12 +39,7 @@
 }
 @media screen and (max-width: 896px) {
   .cover {
-    min-height: 560px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .cover {
-    min-height: 500px;
+    min-height: 480px;
   }
 }
 @media screen and (max-width: 544px) {

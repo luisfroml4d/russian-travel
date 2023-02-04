@@ -29,8 +29,10 @@
 @media screen and (max-width: 698px) {
   .places__item {
     grid-column-gap: 14px;
-    grid-template-columns: 1fr;
-    padding-top: 73px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -38,10 +40,8 @@
   .places__item {
     grid-column-gap: 0;
     grid-row-gap: 0;
-    padding-top: 73px;
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
+    justify-content: flex-start;
   }
 }
 

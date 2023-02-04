@@ -7,6 +7,5 @@
 @media screen and (max-width: 320px) {
   .header__links {
     align-items: center;
-    max-width: 58px;
   }
 }

@@ -26,13 +26,13 @@
   }
 }
 
-@media screen and (max-width: 698px) {
+@media screen and (max-width: 628px) {
   .places__item {
     grid-column-gap: 14px;
+    padding-top: 73px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
   }
 }
 
@@ -40,8 +40,6 @@
   .places__item {
     grid-column-gap: 0;
     grid-row-gap: 0;
-    align-items: flex-start;
-    justify-content: flex-start;
   }
 }
 

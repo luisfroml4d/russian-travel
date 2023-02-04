@@ -13,12 +13,6 @@
   }
 }
 
-@media screen and (max-width: 698px) {
-  .places__title {
-    text-align: center;
-  }
-}
-
 @media screen and (max-width: 320px) {
   .places__title {
     font-size: 32px;

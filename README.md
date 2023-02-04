@@ -8,4 +8,4 @@
 * Grid Laout
 * Адаптивная и резиновая верстка
 
-Ссылка на работу проекта - 
+Ссылка на работу проекта - https://luisfroml4d.github.io/russian-travel/

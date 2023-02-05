@@ -29,7 +29,6 @@
 @media screen and (max-width: 628px) {
   .places__item {
     grid-column-gap: 14px;
-    padding-top: 73px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
